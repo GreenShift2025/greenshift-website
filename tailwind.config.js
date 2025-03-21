@@ -10,3 +10,9 @@ module.exports = {
   },
   plugins: [],
 }
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  corePlugins: {
+    preflight: false, // Tailwind의 기본 스타일 제거
+  },
+};
