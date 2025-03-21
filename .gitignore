@@ -41,3 +41,4 @@ yarn-error.log*
 next-env.d.ts
 "tailwindcss-windows-x64.exe" 
 
+node_modules/
