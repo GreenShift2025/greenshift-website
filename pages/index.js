@@ -16,5 +16,16 @@ export default function Home() {
       </main>
     );
   }
-  <div className="text-red-500">이 문장이 빨간색으로 보이면 Tailwind가 정상 작동!</div>
-
+  
+  export default function Home() {
+    return (
+      <main>
+        {/* 이미지 추가 */}
+        <img src="/mangrove.JPG" alt="Mangrove Forest" width="100%" style={{ maxHeight: "400px", objectFit: "cover" }} />
+  
+        <h1>Introduction</h1>
+        <p>In the competitive landscape of climate finance...</p>
+      </main>
+    );
+  }
+  
