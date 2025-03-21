@@ -1,0 +1,143 @@
+.logo {
+    height: 50px; /* 로고 크기 조절 */
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  nav {
+    width: 100%;
+    background-color: #D3D3D3; /* 새로운 색상 */
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    margin-top: 20px; /* 네비게이션 바와 본문 사이의 간격 */
+    text-align: center;
+  }
+  main div {
+    max-width: 800px; /* 본문이 너무 넓어지지 않도록 제한 */
+    text-align: center;
+  }
+  body {
+    background-color: white;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  .about-container {
+    max-width: 900px; /* 폭을 조절 */
+    margin-top: 0px; /* 메뉴바와 본문 사이의 간격 */
+    padding: 20px;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 34px; /* Why GreenShift? 와 Our Core Services 제목 크기 동일 */
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: auto; /* 페이지 길이를 자동으로 확장 */
+    text-align: center;
+    padding-bottom: 50px; /* 하단 여백 추가 */
+  }
+  
+  .services-container {
+    max-width: 900px;
+    margin-top: 60px; /* 메뉴바와 본문 사이의 간격 */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service-list {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .service-list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  .small-text {
+    display: block; /* 하이픈 뒤의 텍스트를 줄바꿈 */
+    font-size: 60%; /* 현재 크기의 60% */
+    font-weight: bold; /* 굵기 유지 */
+    margin-top: 5px; /* 줄바꿈 후 적절한 간격 */
+  }
+  .about-container {
+    max-width: 900px;
+    margin-top: 140px; /* 기존보다 아래로 내림 */
+    padding: 20px;
+    text-align: center;
+  }
+  .subtitle-small {
+    font-size: 24px; /* What We Do: 와 동일한 크기 */
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .introduction-container {
+    max-width: 900px;
+    margin-top: 160px; /* 기존보다 아래로 내림 */
+    padding: 20px;
+    text-align: center;
+  }
+  .service-title {
+    font-size: 32px; /* About GreenShift와 동일한 크기 */
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .contact-container {
+    max-width: 900px;
+    margin-top: 250px; /* 내용을 아래로 내림 */
+    padding: 20px;
+    text-align: center;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 화면 높이의 100%를 차지하도록 조정 */
+    padding: 60px 20px; /* 위아래 동일한 여백 적용 */
+  }
+  
+  .introduction-container,
+  .who-we-are-container {
+    max-width: 800px;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
