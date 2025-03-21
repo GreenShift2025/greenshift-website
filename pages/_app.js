@@ -24,3 +24,16 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+import { useEffect } from "react";
+import "../styles/globals.css";
+
+function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+  }, []);
+
+  return <Component {...pageProps} />;
+}
+
+export default MyApp;

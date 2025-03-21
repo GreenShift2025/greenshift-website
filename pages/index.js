@@ -16,4 +16,5 @@ export default function Home() {
       </main>
     );
   }
-  
+  <div className="text-red-500">이 문장이 빨간색으로 보이면 Tailwind가 정상 작동!</div>
+
