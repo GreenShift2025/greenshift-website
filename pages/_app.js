@@ -3,14 +3,11 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    window.onload = () => {
-      document.body.style.backgroundColor = "black";
-      document.body.style.color = "white";
-    };
+    document.documentElement.style.setProperty("--background-color", "black");
+    document.documentElement.style.setProperty("--text-color", "white");
   }, []);
 
   return <Component {...pageProps} />;
 }
 
 export default MyApp;
-
