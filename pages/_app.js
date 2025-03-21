@@ -3,8 +3,15 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    document.documentElement.style.setProperty("--background-color", "black");
-    document.documentElement.style.setProperty("--text-color", "white");
+    // 새로운 스타일 태그 생성
+    const styleTag = document.createElement("style");
+    styleTag.innerHTML = `
+      body {
+        background-color: black !important;
+        color: white !important;
+      }
+    `;
+    document.head.appendChild(styleTag);
   }, []);
 
   return <Component {...pageProps} />;
